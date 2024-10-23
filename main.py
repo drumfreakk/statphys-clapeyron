@@ -65,7 +65,7 @@ p = [12.4,13.1,14,15,16,17.1,18.6,20.1,21.9,23.8,26,27,27.8,28.2,28.7,28.7,28.8,
 Ts.append(T)
 Vs.append(V)
 ps.append(p)
-p_sigs.append(np.transpose(np.ones(len(p0)) * 2.5*10**4))
+p_sigs.append(np.transpose(np.ones(len(p)) * 2.5*10**4))
 
 p = []
 T = 40.1
@@ -86,7 +86,7 @@ p=[12.9,13.7,14.6,15.7,16.9,18.2,19.6,21.4,23.2,25.5,28,29.3,30.5,31,31.6,32.3,3
 Ts.append(T)
 Vs.append(V)
 ps.append(p)
-p_sigs.append(np.transpose(np.ones(len(p0)) * 2.5*10**4))
+p_sigs.append(np.transpose(np.ones(len(p)) * 2.5*10**4))
 
 T=50.1
 V=[4,3.75,3.5,3.25,3,2.75,2.5,2.25,2,1.75,1.5,1.4,1.3,1.25,1.2,1.15,1.1,1,0.9,0.8,0.75,0.7,0.65,0.6,0.55,0.5,0.45,0.4,0.39]
@@ -94,7 +94,7 @@ p=[13.4,14.2,15,16.1,17.4,18.6,20.2,22,24,26.4,29,30.5,31.8,32.5,33,33.9,34.5,36
 Ts.append(T)
 Vs.append(V)
 ps.append(p)
-p_sigs.append(np.transpose(np.ones(len(p0)) * 2.5*10**4))
+p_sigs.append(np.transpose(np.ones(len(p)) * 2.5*10**4))
 
 T = 54
 V = [4,3.75,3.5,3.25,3,2.75,2.5,2.25,2,1.75,1.5,1.25,1,0.75,0.7,0.65,0.6,0.55,0.5,0.45]
@@ -102,7 +102,7 @@ p = [13.5,14.5,15.2,16.5,17.7,19.1,20.8,22.4,24.6,27.1,30,33.5,37.4,41.5,42.1,42
 Ts.append(T)
 Vs.append(V)
 ps.append(p)
-p_sigs.append(np.transpose(np.ones(len(p0)) * 2.5*10**4))
+p_sigs.append(np.transpose(np.ones(len(p)) * 2.5*10**4))
 
 #0 is vdw, 1 is diet, 2 is bert
 Vc = [np.zeros(len(ps)), np.zeros(len(ps)), np.zeros(len(ps))]
